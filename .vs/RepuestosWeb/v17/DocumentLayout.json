@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|c:\\users\\usuario\\documents\\visual studio\\repuestosproyecto\\repuestosweb\\paginas\\garantia.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\garantia.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\paginas\\scripts\\garantia.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\scripts\\garantia.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\paginas\\menu.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\menu.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\paginas\\scripts\\ventaservicio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\scripts\\ventaservicio.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\paginas\\ventaservicio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\ventaservicio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\paginas\\scripts\\ventarepuesto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\scripts\\ventarepuesto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\paginas\\ventarepuesto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C150120A-8C53-4144-BDDD-F854A1B1EA40}|RepuestosWeb.csproj|solutionrelative:paginas\\ventarepuesto.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.html",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Menu.html",
+              "RelativeDocumentMoniker": "Paginas\\Menu.html",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Menu.html",
+              "RelativeToolTip": "Paginas\\Menu.html",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwCAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-03T01:40:46.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Garantia.js",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Scripts\\Garantia.js",
+              "RelativeDocumentMoniker": "Paginas\\Scripts\\Garantia.js",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Scripts\\Garantia.js",
+              "RelativeToolTip": "Paginas\\Scripts\\Garantia.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-03T01:36:05.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Garantia.html",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Garantia.html",
+              "RelativeDocumentMoniker": "Paginas\\Garantia.html",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Garantia.html",
+              "RelativeToolTip": "Paginas\\Garantia.html",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-03T01:30:24.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VentaServicio.js",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Scripts\\VentaServicio.js",
+              "RelativeDocumentMoniker": "Paginas\\Scripts\\VentaServicio.js",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Scripts\\VentaServicio.js",
+              "RelativeToolTip": "Paginas\\Scripts\\VentaServicio.js",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-02T20:56:02.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VentaServicio.html",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\VentaServicio.html",
+              "RelativeDocumentMoniker": "Paginas\\VentaServicio.html",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\VentaServicio.html",
+              "RelativeToolTip": "Paginas\\VentaServicio.html",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-02T20:34:16.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VentaRepuesto.js",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Scripts\\VentaRepuesto.js",
+              "RelativeDocumentMoniker": "Paginas\\Scripts\\VentaRepuesto.js",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\Scripts\\VentaRepuesto.js",
+              "RelativeToolTip": "Paginas\\Scripts\\VentaRepuesto.js",
+              "ViewState": "AQIAADgAAAAAAAAAAAAiwFwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-02T02:10:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentaRepuesto.html",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\VentaRepuesto.html",
+              "RelativeDocumentMoniker": "Paginas\\VentaRepuesto.html",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Visual Studio\\RepuestosProyecto\\RepuestosWeb\\Paginas\\VentaRepuesto.html",
+              "RelativeToolTip": "Paginas\\VentaRepuesto.html",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAqwJUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-02T02:11:21.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

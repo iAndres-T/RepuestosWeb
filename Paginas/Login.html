@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="Estilos/css/all.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 100%);
+            font-family: 'Source Sans Pro', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #fff;
+        }
+
+        .login-box {
+            width: 360px;
+        }
+
+        .login-logo h1 {
+            color: #fff;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-card-body {
+            background-color: #f4f6f9;
+            color: #333;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 2rem;
+        }
+
+        .login-box-msg {
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .input-group-text {
+            border-radius: 0 5px 5px 0;
+            background-color: #e9ecef;
+        }
+
+        .btn-primary {
+            background-color: #1e5799;
+            border-color: #1e5799;
+            border-radius: 5px;
+        }
+
+            .btn-primary:hover {
+                background-color: #155a8a;
+                border-color: #155a8a;
+            }
+
+        .card-footer {
+            background-color: #fff;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+
+    <!--[if gte mso 9]><xml>
+    <mso:CustomDocumentProperties>
+    <mso:xd_Signature msdt:dt="string"></mso:xd_Signature>
+    <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">JOSE IGNACIO RAMIREZ GIRALDO</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+    <mso:Order msdt:dt="string">7900.00000000000</mso:Order>
+    <mso:xd_ProgID msdt:dt="string"></mso:xd_ProgID>
+    <mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+    <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">JOSE IGNACIO RAMIREZ GIRALDO</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+    <mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
+    <mso:TemplateUrl msdt:dt="string"></mso:TemplateUrl>
+    <mso:ContentTypeId msdt:dt="string">0x01010009D69078ADC94C4794BA90F2FB6160DD</mso:ContentTypeId>
+    <mso:TriggerFlowInfo msdt:dt="string"></mso:TriggerFlowInfo>
+    <mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
+    <mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
+    </mso:CustomDocumentProperties>
+    </xml><![endif]-->
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        <div class="login-logo">
+            <h1>APLICACIÓN</h1>
+        </div>
+        <!-- /.login-logo -->
+        <div class="card">
+            <div class="card-body login-card-body">
+                <p class="login-box-msg">Ingresa usuario y clave para iniciar</p>
+
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" id="txtUsuario" class="form-control" placeholder="Usuario">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-user"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" id="txtClave" class="form-control" placeholder="Clave">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-lock"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-primary btn-block" onclick="Ingresar()">INGRESAR</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <div id="dvMensaje" class=""></div>
+            </div>
+            <!-- /.login-card-body -->
+        </div>
+    </div>
+    <!-- /.login-box -->
+
+    <script src="../Scripts/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="Scripts/Login.js"></script>
+    <script src="Scripts/Comunes/Comunes.js"></script>
+</body>
+</html>

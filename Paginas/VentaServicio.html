@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Venta de Servicios</title>
+
+	<!-- Google Font: Source Sans Pro -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+	<!-- Font Awesome -->
+	<link href="Estilos/all.min.css" rel="stylesheet" />
+	<!-- Theme style -->
+	<link href="Estilos/adminlte.min.css" rel="stylesheet" />
+	<!-- Estilos para el datatable -->
+	<link href="Estilos/dataTables.min.css" rel="stylesheet" />
+	<link href="Estilos/dataTables.bootstrap4.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+	<section class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12" id="dvMenu">
+				</div>
+				<!-- left column -->
+				<div class="col-md-12">
+					<!-- general form elements -->
+					<div class="card card-primary">
+						<div class="card-header">
+							<h3 class="card-dark">VENTA DE SERVICIOS</h3>
+						</div>
+						<!-- /.card-header -->
+						<!-- form start -->
+						<form id="frmFacturacion">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="txtNumeroVenta">Número de venta</label>
+											<input type="text" class="form-control" id="txtNumeroVenta" placeholder="Número de venta" disabled>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="txtTotalCompra">Total Servicios</label>
+											<input type="text" class="form-control" id="txtTotalCompra" placeholder="Total de los servicios" disabled>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="cboEmpleado">Empleado</label>
+											<select id="cboEmpleado" class="form-control select2" style="width: 100%;">
+												<option selected="selected" value="0">Seleccione un empleado</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="txtFechaCompra">Fecha del servicio</label>
+											<input type="text" class="form-control" id="txtFechaCompra" placeholder="Fecha del servicio" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="txtDocumento">Documento del cliente</label>
+											<input type="text" class="form-control" id="txtDocumento" placeholder="Documento cliente">
+										</div>
+									</div>
+									<div class="col-md-1">
+										<div class="form-group">
+											<img id="btnBuscar" src="../Imagenes/Buscar.jpg" onclick="ConsultarCliente()" />
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="txtNombreCliente">Nombre del cliente</label>
+											<input type="text" class="form-control" id="txtNombreCliente" placeholder="Nombre del cliente" disabled>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="txtMedioPago">Metodo de pago</label>
+											<select id="txtMedioPago" class="form-control select2" style="width: 100%;">
+												<option selected="selected" value="Efectivo">Efectivo</option>
+												<option selected="selected" value="Transferencia">Transferencia</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="row">								
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="cboServicio">Servicio</label>
+											<!--En el combo producto se levanta el evento on change, para que calcule el valor unitario del producto seleccinado-->
+											<select id="cboServicio" class="form-control select2" style="width: 100%;" onchange="PresentarValorUnitario()">
+												<option selected="selected" value="0">Seleccione el servicio</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<label for="txtValorUnitario">Valor</label>
+											<input type="text" class="form-control" id="txtValorUnitarioTexto" placeholder="Valor Servicio" disabled>
+											<!--Se agregan textos ocultos para facilitar la captura de la información y no repetir procesos-->
+											<input type="text" class="form-control" id="txtValorUnitario" placeholder="Valor Servicio" hidden>
+											<input type="text" class="form-control" id="txtCodigoServicio" placeholder="Codigo Servicio" hidden>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<!--Cuando cambia la cantidad se recalcula el valor unitario-->
+											<label for="txtDuracion">Duración</label>
+											<input type="text" class="form-control" id="txtDuracion" placeholder="Duración" disabled>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+										<button type="button" id="btnAgregar" class="btn-block btn-lg btn-primary" onclick="AgregarServicio()">AGREGAR SERVICIO</button>
+									</div>
+									<div class="col-md-6">
+										<button type="button" id="btnVender" class="btn-block btn-lg btn-warning" onclick="Vender()">VENDER</button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<table id="tblVenta" class="display" style="width:100%">
+											<thead>
+												<tr>
+													<th>Eliminar</th>
+													<th>ID Encargado</th>
+													<th>Encargado</th>
+													<th>ID Servicio</th>
+													<th>Servicio</th>
+													<th>Duración</th>
+													<th>Valor</th>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</div>
+							</div>
+							<!-- /.card-body -->
+							<div class="card-footer">
+								<div id="dvMensaje" class=""></div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="../Scripts/jquery.min.js"></script>
+	<script src="../Scripts/bootstrap.bundle.min.js"></script>
+	<script src="../Scripts/jquery.dataTables.min.js"></script>
+	<script src="../Scripts/dataTables.bootstrap4.min.js"></script>
+	<script src="Scripts/Comunes/Comunes.js"></script>
+	<script src="Scripts/Comunes/Tablas.js"></script>
+	<script src="Scripts/Comunes/Combos.js"></script>
+	<script src="Scripts/VentaServicio.js"></script>
+	<!-- /.card -->
+</body>
+</html>

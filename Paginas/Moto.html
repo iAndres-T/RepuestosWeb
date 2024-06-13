@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MOTOS</title>
+	<!-- Google Font: Source Sans Pro -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+	<link href="Estilos/css/all.min.css" rel="stylesheet" />
+	<link href="Estilos/adminlte.min.css" rel="stylesheet" />
+
+	<link href="Estilos/dataTables.min.css" rel="stylesheet" />
+	<link href="Estilos/dataTables.bootstrap4.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+	<section class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<!-- left column -->
+				<div class="col-md-12" id="dvMenu">
+				</div>
+				<div class="col-md-12">
+					<div class="card card-primary">
+						<div class="card-header">
+							<h3 class="card-title">ADMINISTRACIÓN DE MOTOS</h3>
+						</div>
+						<form id="frmIncapacidades">
+							<div class="card-body">
+								<div class="card card-gray-dark">
+									<div class="card-header">
+										<h3 class="card-title">DATOS ENTRADA</h3>
+									</div>
+									<div class="card-body">
+										<div class="row">
+											<div class="col-md-3">
+												<div class="form-group">
+													<label for="txtPlaca">PLACA</label>
+													<input type="text" class="form-control" id="txtPlaca" placeholder="Placa de la moto">
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="form-group">
+													<label for="txtModelo">MODELO(AÑO)</label>
+													<input type="text" class="form-control" id="txtModelo" placeholder="Modelo de la moto">
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="form-group">
+													<label for="txtLinea">LINEA</label>
+													<input type="text" class="form-control" id="txtLinea" placeholder="Linea de la moto">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-3">
+												<div class="form-group">
+													<label for="cboMarca">MARCA</label>
+													<select id="cboMarca" class="form-control">
+														<option value="0">Seleccionar</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="form-group">
+													<label for="cboCilindraje">CILINDRAJE</label>
+													<select id="cboCilindraje" class="form-control">
+														<option value="0">Seleccionar</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="form-group">
+													<label for="cboPropietario">PROPIETARIO</label>
+													<select id="cboPropietario" class="form-control">
+														<option value="0">Seleccionar</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-3">
+												<br />
+												<button type="button" id="btnInsertar" class="btn-block btn-lg btn-primary">INSERTAR</button>
+											</div>
+											<div class="col-md-3">
+												<br />
+												<button type="button" id="btnActualizar" class="btn-block btn-lg btn-secondary">ACTUALIZAR</button>
+											</div>
+											<div class="col-md-3">
+												<br />
+												<button type="button" id="btnEliminar" class="btn-block btn-lg btn-danger">ELIMINAR</button>
+											</div>
+											<div class="col-md-3">
+												<br />
+												<button type="button" id="btnConsultar" class="btn-block btn-lg btn-success">CONSULTAR</button>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<table id="tblMotos" class="table table-bordered table-striped" style="width:100%;">
+													<thead>
+														<tr>
+															<th></th>
+															<th></th>
+															<th></th>
+															<th></th>
+															<th></th>
+															<th></th>
+															<th></th>
+														</tr>
+													</thead>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="card-footer">
+									<div id="dvMensaje" class=""></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="../Scripts/jquery-3.4.1.min.js"></script>
+	<script src="../Scripts/bootstrap.bundle.min.js"></script>
+	<!--Tables-->
+	<script src="../Scripts/jquery.dataTables.min.js"></script>
+	<script src="../Scripts/dataTables.bootstrap4.min.js"></script>
+	<!--Archivos comunes-->
+	<script src="Scripts/Comunes/Comunes.js"></script>
+	<script src="Scripts/Comunes/Combos.js"></script>
+	<script src="Scripts/Comunes/Tablas.js"></script>
+	<!--Archivos de la página-->
+	<script src="Scripts/Moto.js"></script>
+</body>
+</html>
